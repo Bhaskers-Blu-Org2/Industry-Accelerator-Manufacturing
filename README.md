@@ -8,7 +8,7 @@ description: "Add 150 character max description"
 urlFragment: "update-this-to-unique-url-stub"
 ---
 
-# Official Microsoft Sample
+# Microsoft Dynamics 365 Announces Industry Accelerators
 
 <!-- 
 Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
@@ -18,7 +18,9 @@ Guidance on onboarding samples to docs.microsoft.com/samples: https://review.doc
 Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
 -->
 
-Give a short description for your sample here. What does it do and why is it important?
+Dynamics 365 announced the Microsoft Power Platform, a connected app platform that unifies access to your data to enable ISVs, SIs, Partners and Customers to build intelligent, data driven, task focused business and analytic applications. Microsoft is focused on enabling a data culture where the Microsoft Power Platform acts as the glue across Dynamics 365 (CE, F&O, Talent), Office 365 (SharePoint, Teams), Power BI, Power Apps, Microsoft Flow, Azure and other 3rd party on-premise and cloud based solutions.
+
+With the Power Platform providing a unified approach to building data driven solutions, the team is taking it one step further by introducing Industry Solution Accelerators. Accelerators are industry focused foundational components that enable ISVs and other solution providers, a way to build solutions that are based on industry standards supported and driven by Microsoft. Along with our Health Accelerator that was released during Inspire 2018, which you can read about here, we are focused on delivering accelerators for other industries for which you can find more detail in the links below.
 
 ## Contents
 
