@@ -1,0 +1,261 @@
+<html><head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script>
+var url ='https://'+window.location.hostname;
+</script>
+<meta><meta><meta><meta><meta><meta><meta><meta><meta><meta><meta><meta></head><body onfocusout="parent.setEmailRange();" style="overflow-wrap: break-word;">
+<style>
+.breadcrumb {
+    display: none;
+}
+
+.page-header {
+    border:0px;
+}
+
+.page-heading .container {
+    display: none;
+}
+
+.page-heading {
+    display: none;
+}
+
+#titleNew {
+    font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 20px;
+/* identical to box height, or 71% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+/* Text color/Primary */
+
+color: #323130;
+}
+
+.table-striped p {
+   font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+/* Text color/Primary */
+
+color: #323130;
+}
+
+td {
+    font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+
+/* Neutrals / Web / Gray 130 #605E5C */
+
+color: #605E5C;
+}
+
+th {
+    font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+
+/* Neutrals / Web / Gray 130 #605E5C */
+
+color: #605E5C;
+    font-weight: BOLD;
+}
+
+h5 {
+    font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+/* Text color/Primary */
+
+color: #323130;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.btn-primary {
+width: 87px;
+height: 32px;
+left: calc(50% - 87px/2);
+top: calc(50% - 32px/2);
+
+/* Communication Blue / Light / Comm Primary #0078D4 */
+
+background: #0078D4;
+border-radius: 2px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: center;
+margin: 0px 0px;
+}
+
+h6 {
+    font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #000000;
+}
+
+h6 {
+    font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 71% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+/* Text color/Primary */
+
+color: #323130;
+    font-weight: 500;
+}
+
+#buttonRow {
+    padding-top: 25px;
+}
+
+.btn-primary {
+    position: static;
+width: 76px;
+height: 32px;
+left: calc(50% - 76px/2);
+top: calc(50% - 32px/2);
+
+/* Communication Blue / Light / Comm Primary #0078D4 */
+
+background: #0078D4;
+border-radius: 2px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: center;
+margin: 0px 10px;
+}
+
+
+</style>
+
+<h2 id="titleNew">Set Up EDI Configuration With Examples</h2>
+
+<p></p>
+
+<div>
+<h6>Part 1: Configure ShipTo Locations</h6>
+
+<p>To obtain the store numbers, address mappings, and ShipTo locations, go to the following link. This will provide you US Brick &amp; Mortar stores and Distribution Centers Shipments for the Store Number and Address mapping.</p>
+
+<h6>EDI Data Contracts and Samples</h6>
+
+<h6></h6>
+
+<p>For more technical details (data contracts and samples) on these EDI Transactions, click any of the links provided below.</p>
+
+<table class="t1">
+	<tbody>
+		<tr>
+			<th>Transaction Data Guides</th>
+			<th>EDI X12 Messages</th>
+			<th>EDI Samples</th>
+		</tr>
+		<tr>
+			<td rowspan="3"><a href="https://mfgdevsrm.blob.core.windows.net/srmblob/Purchase Order X12 850.pdf?st=2020-04-28T23%3A20%3A51Z&amp;se=2025-04-29T23%3A20%3A00Z&amp;sp=rl&amp;sv=2018-03-28&amp;sr=b&amp;sig=dQed2jXMtAwb4ZwjB45DbmXr0HTlzFShwIqImPiPS6w%3D" target="_blank">Purchase Order</a></td>
+			<td rowspan="3">850</td>
+			<td><a href="https://apimgmtstty38v78nlowradd.blob.core.windows.net/content/MediaLibrary/samplefiles/3PP%20Suppliers/850/Ship%20to%20B&amp;M%20Store_6000599472_EDI850.txt">PO_6000599472_Ship to B&amp;M Store</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://apimgmtstty38v78nlowradd.blob.core.windows.net/content/MediaLibrary/samplefiles/3PP%20Suppliers/850/Ship%20to%20Customer_6000608079_EDI850.txt">PO_6000608079_Ship to Customer</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://apimgmtstty38v78nlowradd.blob.core.windows.net/content/MediaLibrary/samplefiles/3PP%20Suppliers/850/Ship%20to%20DC_PO%206000608839_EDI850.txt">PO_6000608839_Ship To DC</a></td>
+		</tr>
+		<tr>
+			<td rowspan="3"><a href="https://mfgdevsrm.blob.core.windows.net/srmblob/Order Acknowledgement X12 855.pdf?st=2020-04-28T23%3A21%3A16Z&amp;se=2025-04-29T23%3A21%3A00Z&amp;sp=rl&amp;sv=2018-03-28&amp;sr=b&amp;sig=XEKUo2Qp%2B5ewpwCYFy8xvdG5TzpsObeo7X1GQH5lLC0%3D" target="_blank">Order Acknowledgement</a></td>
+			<td rowspan="3">855</td>
+			<td><a href="https://apimgmtstty38v78nlowradd.blob.core.windows.net/content/MediaLibrary/samplefiles/3PP%20Suppliers/855/Ship%20to%20B&amp;M%20Store_6000599472_EDI855.txt">POAck_6000599472_Ship to B&amp;M Store</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://apimgmtstty38v78nlowradd.blob.core.windows.net/content/MediaLibrary/samplefiles/3PP%20Suppliers/855/Ship%20to%20Customer_6000608079_EDI855.txt">POAck_6000608079_Ship to Customer</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://apimgmtstty38v78nlowradd.blob.core.windows.net/content/MediaLibrary/samplefiles/3PP%20Suppliers/855/Ship%20to%20DC_6000608839_EDI855.txt">POAck_6000608839_Ship to DC</a></td>
+		</tr>
+		<tr>
+			<td rowspan="3"><a href="https://mfgdevsrm.blob.core.windows.net/srmblob/Shipment Advice X12 856.pdf?st=2020-04-28T23%3A21%3A40Z&amp;se=2025-04-29T23%3A21%3A00Z&amp;sp=rl&amp;sv=2018-03-28&amp;sr=b&amp;sig=G2dI7WRhSYQv2eQrOudx5kVI1OwEvtPbJgrx2kSddro%3D" target="_blank">Shipment Advice</a></td>
+			<td rowspan="3">856</td>
+			<td><a href="https://apimgmtstty38v78nlowradd.blob.core.windows.net/content/MediaLibrary/samplefiles/3PP%20Suppliers/856/Ship%20to%20B&amp;M%20Store_6000599472_EDI856.txt">ASN_6000599472_ Ship to B&amp;M Store</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://apimgmtstty38v78nlowradd.blob.core.windows.net/content/MediaLibrary/samplefiles/3PP%20Suppliers/856/Ship%20to%20Customer_6000608079_EDI856.txt">ASN_6000608079_Ship to Customer</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://apimgmtstty38v78nlowradd.blob.core.windows.net/content/MediaLibrary/samplefiles/3PP%20Suppliers/856/Ship%20to%20DC_6000608839_EDI856.txt">ASN_6000608839_Ship to DC</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://mfgdevsrm.blob.core.windows.net/srmblob/Invoice X12 810.pdf?st=2020-04-28T23%3A21%3A58Z&amp;se=2025-04-29T23%3A21%3A00Z&amp;sp=rl&amp;sv=2018-03-28&amp;sr=b&amp;sig=oO5K8qWwCF%2FISN0u8tGlD%2BgQTdoUQ2gyk8eacImI1lc%3D" target="_blank">Invoice</a></td>
+			<td>810</td>
+			<td><a href="https://apimgmtstty38v78nlowradd.blob.core.windows.net/content/MediaLibrary/samplefiles/3PP%20Suppliers/810/Ship%20to%20DC_6000608839_EDI810.txt">Invoice_6000608839_Ship to DC</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://mfgdevsrm.blob.core.windows.net/srmblob/Invoice Ack X12 824.pdf?st=2020-04-28T23%3A22%3A21Z&amp;se=2025-04-29T23%3A22%3A00Z&amp;sp=rl&amp;sv=2018-03-28&amp;sr=b&amp;sig=uYNXMLqQhF0Fx4ur3RcCfhZ%2FKNOy%2BaRJBFXhjO6aLeE%3D" target="_blank">Invoice Acknowledgement</a></td>
+			<td>824</td>
+			<td><a href=""></a></td>
+		</tr>
+		<tr>
+			<td rowspan="2"><a href="https://mfgdevsrm.blob.core.windows.net/srmblob/Inventory Advice X12 846.pdf?st=2020-04-28T23%3A22%3A38Z&amp;se=2025-04-29T23%3A22%3A00Z&amp;sp=rl&amp;sv=2018-03-28&amp;sr=b&amp;sig=fZxEsr9dKwE9IerT0aub%2FAG0KtU26cFRUC0JXv8OUro%3D" target="_blank">Inventory Feed</a></td>
+			<td rowspan="2">846</td>
+			<td><a href="https://apimgmtstty38v78nlowradd.blob.core.windows.net/content/MediaLibrary/samplefiles/3PP%20Suppliers/846/Sample%2001%20-%20Inventory%20-%20EDI846.txt">Inventory_Sample1</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://apimgmtstty38v78nlowradd.blob.core.windows.net/content/MediaLibrary/samplefiles/3PP%20Suppliers/846/Sample%2002%20-%20Inventory%20-%20EDI846.txt">Inventory_Sample2</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+</body></html>

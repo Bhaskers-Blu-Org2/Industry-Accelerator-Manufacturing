@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msmfg_SupplierManagement</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="msmfg_SupplierManagement" />
+    <AppModuleComponent type="29" id="{a54198da-d50c-4e00-9791-f575fcad50bb}" />
+    <AppModuleComponent type="60" id="{7a6eff93-8888-ea11-a812-000d3a191e87}" />
+    <AppModuleComponent type="60" id="{9d783268-db8b-ea11-a812-000d3a8b328e}" />
+    <AppModuleComponent type="60" id="{eb89a993-db8b-ea11-a812-000d3a8b328e}" />
+    <AppModuleComponent type="1" schemaName="msmfg_accessrequest" />
+    <AppModuleComponent type="60" id="{17599f3e-6d6f-ea11-a811-000d3a33fcaa}" />
+    <AppModuleComponent type="26" id="{ec485bd2-da96-49df-9e81-759a59faf163}" />
+    <AppModuleComponent type="26" id="{f00fae86-62de-47a0-81cf-e8360e81f387}" />
+    <AppModuleComponent type="59" id="{5c153a22-0c7e-ea11-a812-000d3a33f47e}" />
+    <AppModuleComponent type="1" schemaName="msmfg_accessrequestapproval" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="60" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001002}" />
+    <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001031}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001001}" />
+    <AppModuleComponent type="59" id="{a3a9ee47-5093-de11-97d4-00155da3b01e}" />
+    <AppModuleComponent type="1" schemaName="msmfg_accountcommconfig" />
+    <AppModuleComponent type="60" id="{f21f6f47-0845-4f7a-976f-ce7daf5b9788}" />
+    <AppModuleComponent type="60" id="{89da4310-2dc2-4ff4-9bc4-5597aa4ef201}" />
+    <AppModuleComponent type="26" id="{98c3e576-43e7-4a19-92bf-af0495293e8e}" />
+    <AppModuleComponent type="26" id="{f3a26a08-5dc0-4160-881e-85785f047432}" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001902}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001901}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001899}" />
+    <AppModuleComponent type="26" id="{ed1f0041-4f6b-4171-8757-4ac44c2fcafa}" />
+    <AppModuleComponent type="26" id="{8fba639e-cd73-df11-805d-00155db1891a}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001900}" />
+    <AppModuleComponent type="26" id="{1795e537-6270-4c62-8175-77cf045315f3}" />
+    <AppModuleComponent type="1" schemaName="msmfg_capabilitytype" />
+    <AppModuleComponent type="60" id="{2e616806-cd1f-4f64-9f9b-b05730fa5a88}" />
+    <AppModuleComponent type="1" schemaName="msmfg_certificationtype" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="60" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001033}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001003}" />
+    <AppModuleComponent type="59" id="{2ff3ebea-6310-4dde-b3a1-e1144ea42b7b}" />
+    <AppModuleComponent type="1" schemaName="msmfg_creditrating" />
+    <AppModuleComponent type="60" id="{150de7f7-7b60-4222-9260-44ed46d9236c}" />
+    <AppModuleComponent type="26" id="{e27d26e6-5cb7-4561-80a4-3679e28891cb}" />
+    <AppModuleComponent type="26" id="{1e649fc5-8d1a-4e15-b207-a183448d9a19}" />
+    <AppModuleComponent type="1" schemaName="msmfg_department" />
+    <AppModuleComponent type="60" id="{d93d44db-b9eb-43af-9b1c-3f4783b39d21}" />
+    <AppModuleComponent type="26" id="{765788ce-67bd-4c9e-9d59-f4947ce2c702}" />
+    <AppModuleComponent type="1" schemaName="msmfg_identifier" />
+    <AppModuleComponent type="60" id="{7954fadc-12bf-4e34-a88c-d3f4d243524e}" />
+    <AppModuleComponent type="26" id="{b1026579-e6b6-4463-83ae-30c67d7ea121}" />
+    <AppModuleComponent type="26" id="{5896de36-a308-4a16-9592-0971f8cdddcb}" />
+    <AppModuleComponent type="1" schemaName="msmfg_productclassification" />
+    <AppModuleComponent type="60" id="{4b0c70ef-2f21-4432-9862-5afd6d7c18ed}" />
+    <AppModuleComponent type="1" schemaName="msmfg_question" />
+    <AppModuleComponent type="60" id="{1a01a582-6a08-47b8-865d-86b4067b7ccf}" />
+    <AppModuleComponent type="1" schemaName="msmfg_questionnairequestion" />
+    <AppModuleComponent type="60" id="{96c0256f-b47c-42ec-b940-efd28446b8dd}" />
+    <AppModuleComponent type="26" id="{8dabd710-c075-ea11-a811-000d3a33fcaa}" />
+    <AppModuleComponent type="26" id="{f02facd9-7824-4ece-ba26-4bb245bb9b94}" />
+    <AppModuleComponent type="26" id="{42807904-c075-ea11-a811-000d3a33fcaa}" />
+    <AppModuleComponent type="26" id="{8988cace-ef8e-4bca-ba78-fa3b1e0f82a9}" />
+    <AppModuleComponent type="1" schemaName="msmfg_questionnairetemplate" />
+    <AppModuleComponent type="60" id="{21078ed1-abf4-430b-9e61-d8a457abd939}" />
+    <AppModuleComponent type="1" schemaName="msmfg_questionnairetemplatequestion" />
+    <AppModuleComponent type="60" id="{7fbbebf8-cfe9-47cd-981c-9da0e1048751}" />
+    <AppModuleComponent type="1" schemaName="msmfg_vendorcapability" />
+    <AppModuleComponent type="60" id="{d1fac383-7dc6-4999-bdd9-cd29f0cce657}" />
+    <AppModuleComponent type="26" id="{062a16a9-15b2-47fc-b845-4b911de20776}" />
+    <AppModuleComponent type="1" schemaName="msmfg_vendorcertification" />
+    <AppModuleComponent type="60" id="{ea0cd9df-12a6-443a-8871-435fc360fc6e}" />
+    <AppModuleComponent type="26" id="{50637d14-c723-49cb-b3ff-5b4d10c94ed6}" />
+    <AppModuleComponent type="26" id="{dbf184a7-baa6-4806-a09f-79fd6b804399}" />
+    <AppModuleComponent type="1" schemaName="msmfg_vendorquestionnaire" />
+    <AppModuleComponent type="60" id="{70860976-cd83-4a2f-89b9-fa636c86029b}" />
+    <AppModuleComponent type="26" id="{a78ab3c5-6dc0-4808-b83a-6f61adb91018}" />
+    <AppModuleComponent type="26" id="{de2ef0ff-7094-402a-80af-b6716c5d948c}" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Supplier Management" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

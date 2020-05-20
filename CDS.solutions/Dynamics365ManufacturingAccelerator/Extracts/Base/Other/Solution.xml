@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.16545" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>Dynamics365ManufacturingAccelerator</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Dynamics 365 Manufacturing Accelerator" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>dynamics365manufacturing</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Dynamics 365 Manufacturing" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msmfg</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>84354</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="1" schemaName="contact" behavior="1" />
+      <RootComponent type="1" schemaName="msmfg_accessrequest" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_accessrequestapproval" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_accountcommconfig" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_capabilitytype" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_certificationtype" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_creditrating" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_department" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_identifier" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_productclassification" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_question" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_questionnairequestion" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_questionnairetemplate" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_questionnairetemplatequestion" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_vendorcapability" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_vendorcertification" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_vendorquestionnaire" behavior="0" />
+      <RootComponent type="9" schemaName="msmfg_acknowledgmenttype" behavior="0" />
+      <RootComponent type="9" schemaName="msmfg_agency" behavior="0" />
+      <RootComponent type="9" schemaName="msmfg_department" behavior="0" />
+      <RootComponent type="9" schemaName="msmfg_electroniccommunicationtype" behavior="0" />
+      <RootComponent type="9" schemaName="msmfg_identifiertype" behavior="0" />
+      <RootComponent type="9" schemaName="msmfg_questiontype" behavior="0" />
+      <RootComponent type="9" schemaName="msmfg_requesttype" behavior="0" />
+      <RootComponent type="9" schemaName="msmfg_role" behavior="0" />
+      <RootComponent type="29" id="{a54198da-d50c-4e00-9791-f575fcad50bb}" behavior="0" />
+      <RootComponent type="60" id="{1c36cc17-ea84-ea11-a812-000d3a8b328e}" behavior="0" />
+      <RootComponent type="60" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      <RootComponent type="60" id="{74f71b95-9e85-ea11-a812-000d3a191e87}" behavior="0" />
+      <RootComponent type="60" id="{8752f828-877d-ea11-a812-000d3a33fcaa}" behavior="0" />
+      <RootComponent type="60" id="{ea0cd9df-12a6-443a-8871-435fc360fc6e}" behavior="0" />
+      <RootComponent type="60" id="{f68971bd-0630-446a-bb0e-3c8ddecf55b1}" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_ACCIcon" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_ARSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_CapabilitySVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_CAPSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_CERTSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_CREDITSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_DEPTSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_EDIExamples" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_EDIGateway" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_EDIProductionSignOff" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_EDITestCase" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_IconSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_IDSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_PCSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_QQSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_Question1.svg" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_QuestionSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_QuestionTemplateSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_SetDeveloperOptionSet" behavior="0" />
+      <RootComponent type="61" schemaName="msmfg_TemplateSVG" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Dependent key="1" type="60" displayName="EDI Detail" parentDisplayName="Account" id="{74f71b95-9e85-ea11-a812-000d3a191e87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="66" schemaName="MscrmControls.Calendar.CalendarControl" displayName="MscrmControls.Calendar.CalendarControl" solution="CustomControlsCore (9.1.0000.16545)" />
+        <Dependent key="3" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2004.1013)" />
+        <Dependent key="1" type="60" displayName="EDI Detail" parentDisplayName="Account" id="{74f71b95-9e85-ea11-a812-000d3a191e87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.16545)" />
+        <Dependent key="3" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="66" schemaName="MscrmControls.LinearGauge.LinearGaugeControl" displayName="MscrmControls.LinearGauge.LinearGaugeControl" solution="CustomControlsCore (9.1.0000.16545)" />
+        <Dependent key="3" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="1" type="60" displayName="EDI Detail" parentDisplayName="Account" id="{74f71b95-9e85-ea11-a812-000d3a191e87}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

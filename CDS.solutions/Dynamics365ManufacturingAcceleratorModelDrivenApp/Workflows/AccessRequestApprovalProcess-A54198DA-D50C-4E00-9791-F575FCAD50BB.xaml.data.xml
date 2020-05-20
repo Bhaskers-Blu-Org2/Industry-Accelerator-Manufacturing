@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{a54198da-d50c-4e00-9791-f575fcad50bb}" Name="Access Request: Approval Process" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/AccessRequestApprovalProcess-A54198DA-D50C-4E00-9791-F575FCAD50BB.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>msmfg_accessrequestapproval</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>msmfg_AccessRequest</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Access Request: Approval Process" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{8b3fa673-b775-4ef9-9233-15260b3b06aa}">
+      <label languagecode="1033" description="Review Request" />
+    </steplabels>
+    <steplabels id="{05a2da4c-f15b-4ad5-b244-9d0f6cf29471}">
+      <label languagecode="1033" description="Business Contact" />
+    </steplabels>
+    <steplabels id="{f17a005a-7a18-4412-8e70-3ccd8e96145d}">
+      <label languagecode="1033" description="Justification" />
+    </steplabels>
+    <steplabels id="{47b7932b-8863-423f-a920-e1985e50fc2c}">
+      <label languagecode="1033" description="Email" />
+    </steplabels>
+    <steplabels id="{ceec4616-e886-4a26-9be5-2ec408c1fcad}">
+      <label languagecode="1033" description="Decision" />
+    </steplabels>
+    <steplabels id="{90c0f307-e19e-425a-931b-cd9347763525}">
+      <label languagecode="1033" description="Decision" />
+    </steplabels>
+  </labels>
+</Workflow>

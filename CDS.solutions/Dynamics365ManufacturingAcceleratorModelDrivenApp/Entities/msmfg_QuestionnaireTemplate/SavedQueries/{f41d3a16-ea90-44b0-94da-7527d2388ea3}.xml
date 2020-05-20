@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f41d3a16-ea90-44b0-94da-7527d2388ea3}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmfg_code" select="1" icon="1" preview="1">
+        <row name="result" id="msmfg_questionnairetemplateid">
+          <cell name="msmfg_code" width="300" />
+          <cell name="msmfg_name" width="100" />
+          <cell name="msmfg_description" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmfg_questionnairetemplate">
+          <attribute name="msmfg_questionnairetemplateid" />
+          <attribute name="msmfg_code" />
+          <attribute name="createdon" />
+          <order attribute="msmfg_code" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmfg_description" />
+          <attribute name="msmfg_name" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Questionnaire Templates" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

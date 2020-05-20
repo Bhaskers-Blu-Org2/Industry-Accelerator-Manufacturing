@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e6ca5074-f90f-4e69-8229-0cdeab8a5970}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmfg_questionnumber" select="1" icon="1" preview="1">
+        <row name="result" id="msmfg_questionid">
+          <cell name="msmfg_questionnumber" width="66" />
+          <cell name="msmfg_question" width="300" />
+          <cell name="msmfg_questiontype" width="100" />
+          <cell name="msmfg_isproductclassification" width="62" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmfg_question">
+          <attribute name="msmfg_questionid" />
+          <attribute name="msmfg_questionnumber" />
+          <attribute name="createdon" />
+          <order attribute="msmfg_questionnumber" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmfg_question" />
+          <attribute name="msmfg_questiontype" />
+          <attribute name="msmfg_isproductclassification" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Questions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

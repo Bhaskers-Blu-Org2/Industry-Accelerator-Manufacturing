@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e27d26e6-5cb7-4561-80a4-3679e28891cb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmfg_name" select="1" icon="1" preview="1">
+        <row name="result" id="msmfg_creditratingid">
+          <cell name="msmfg_name" width="90" />
+          <cell name="msmfg_account" width="163" />
+          <cell name="msmfg_agency" width="100" />
+          <cell name="msmfg_reportdate" width="100" />
+          <cell name="msmfg_description" width="129" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmfg_creditrating">
+          <attribute name="msmfg_creditratingid" />
+          <attribute name="msmfg_name" />
+          <attribute name="createdon" />
+          <order attribute="msmfg_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmfg_description" />
+          <attribute name="msmfg_agency" />
+          <attribute name="msmfg_account" />
+          <attribute name="msmfg_reportdate" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Credit Ratings" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{1a409264-d67d-ea11-a812-000d3a33f47e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmfg_identifier" select="1" preview="1" icon="1">
+        <row name="result" id="msmfg_identifierid">
+          <cell name="msmfg_authority" width="100" />
+          <cell name="msmfg_identifier" width="150" />
+          <cell name="msmfg_type" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="msmfg_identifier">
+          <attribute name="msmfg_identifier" />
+          <order attribute="msmfg_identifier" descending="false" />
+          <attribute name="msmfg_type" />
+          <attribute name="createdon" />
+          <attribute name="msmfg_authority" />
+          <attribute name="msmfg_identifierid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Portal View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

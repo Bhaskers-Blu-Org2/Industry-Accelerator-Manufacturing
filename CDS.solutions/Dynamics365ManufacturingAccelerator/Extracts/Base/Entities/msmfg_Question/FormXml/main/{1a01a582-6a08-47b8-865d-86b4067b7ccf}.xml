@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1a01a582-6a08-47b8-865d-86b4067b7ccf}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{c0cd2adf-7392-4fec-8b77-8bb562739f29}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{0fbfca4e-446a-44e5-87f8-cf8822bee484}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{97d0c978-a34e-42b7-9ecd-1f35afa64968}">
+                        <labels>
+                          <label description="Question Number" languagecode="1033" />
+                        </labels>
+                        <control id="msmfg_questionnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmfg_questionnumber" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ab64960b-c931-472a-a4a0-c2364f45e0f7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="QuestionType" languagecode="1033" />
+                        </labels>
+                        <control id="msmfg_questiontype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmfg_questiontype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{145c8549-00c9-4a75-8deb-5811f77c2872}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Question" languagecode="1033" />
+                        </labels>
+                        <control id="msmfg_question" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmfg_question" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3f941b4a-e986-408a-9328-dadb39a7ae0f}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{c00fc2a3-6aa3-4439-acb0-509cc3bb9c68}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{126ed77d-3e20-4420-a172-56e4fc7bf510}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3300fa89-f46f-4c50-a482-8b7065f36776}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{04f61d6e-d83e-4572-9083-7c2b8a5805dd}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{aad15709-4199-447c-86c4-0260768a7c47}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{a427da33-d30b-453c-baea-75c0095c7d8a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1e3235f3-f34e-4988-9ff3-46c262ca7c47}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{73dd1c0c-f78d-43e4-b04d-2365ffd7dd44}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

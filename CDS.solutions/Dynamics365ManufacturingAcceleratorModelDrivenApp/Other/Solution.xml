@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.16545" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>Dynamics365ManufacturingAcceleratorModelDrivenApp</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Dynamics 365 Manufacturing Accelerator Model Driven App" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>dynamics365manufacturing</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Dynamics 365 Manufacturing" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msmfg</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>84354</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="1" schemaName="msmfg_accessrequest" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_accessrequestapproval" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_creditrating" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_department" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_identifier" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_question" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_questionnairequestion" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_questionnairetemplate" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_vendorcapability" behavior="0" />
+      <RootComponent type="1" schemaName="msmfg_vendorcertification" behavior="0" />
+      <RootComponent type="29" id="{a54198da-d50c-4e00-9791-f575fcad50bb}" behavior="0" />
+      <RootComponent type="60" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" behavior="0" />
+      <RootComponent type="60" id="{7a6eff93-8888-ea11-a812-000d3a191e87}" behavior="0" />
+      <RootComponent type="60" id="{9d783268-db8b-ea11-a812-000d3a8b328e}" behavior="0" />
+      <RootComponent type="60" id="{e5d9457f-cf6a-ea11-a811-000d3a33f47e}" behavior="0" />
+      <RootComponent type="60" id="{eb89a993-db8b-ea11-a812-000d3a8b328e}" behavior="0" />
+      <RootComponent type="60" id="{f74842d0-6880-ea11-a812-000d3a33f47e}" behavior="0" />
+      <RootComponent type="62" schemaName="msmfg_SupplierManagement" behavior="0" />
+      <RootComponent type="80" schemaName="msmfg_SupplierManagement" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msmfg_questionnairetemplatequestion" displayName="Questionnaire Template Question" solution="Active" />
+        <Dependent key="1" type="1" schemaName="msmfg_questionnairetemplate" displayName="Questionnaire Template" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msmfg_questionnairetemplatequestion" displayName="Questionnaire Template Question" solution="Active" />
+        <Dependent key="2" type="1" schemaName="msmfg_question" displayName="Question" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="msmfg_certificationtype" displayName="Certification Type" solution="Active" />
+        <Dependent key="4" type="26" schemaName="Access Management" displayName="Access Management" parentSchemaName="msmfg_vendorcertification" parentDisplayName="Vendor Certification" id="{a7cfdaa7-857e-ea11-a812-000d3a33fcaa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="msmfg_certificationtype" displayName="Certification Type" solution="Active" />
+        <Dependent key="5" type="26" schemaName="Inactive Vendor Certifications" displayName="Inactive Vendor Certifications" parentSchemaName="msmfg_vendorcertification" parentDisplayName="Vendor Certification" id="{dbf184a7-baa6-4806-a09f-79fd6b804399}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="msmfg_certificationtype" displayName="Certification Type" solution="Active" />
+        <Dependent key="6" type="62" schemaName="msmfg_SupplierManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="msmfg_certificationtype" displayName="Certification Type" solution="Active" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="msmfg_certificationtype" displayName="Certification Type" solution="Active" />
+        <Dependent key="8" type="26" schemaName="Active Vendor Certifications" displayName="Active Vendor Certifications" parentSchemaName="msmfg_vendorcertification" parentDisplayName="Vendor Certification" id="{50637d14-c723-49cb-b3ff-5b4d10c94ed6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="msmfg_certificationtype" displayName="Certification Type" solution="Active" />
+        <Dependent key="9" type="10" schemaName="msmfg_VendorCert_CertType" displayName="msmfg_VendorCert_CertType" parentSchemaName="msmfg_certificationtype" parentDisplayName="Certification Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="1" schemaName="msmfg_accountcommconfig" displayName="Account Communication Configuration" solution="Active" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="1" schemaName="msmfg_accountcommconfig" displayName="Account Communication Configuration" solution="Active" />
+        <Dependent key="6" type="62" schemaName="msmfg_SupplierManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msmfg_questionnairetemplatequestion" displayName="Questionnaire Template Question" solution="Active" />
+        <Dependent key="6" type="62" schemaName="msmfg_SupplierManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msmfg_questionnairetemplatequestion" displayName="Questionnaire Template Question" solution="Active" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msmfg_questionnairetemplatequestion" displayName="Questionnaire Template Question" solution="Active" />
+        <Dependent key="11" type="10" schemaName="msmfg_Question_msmfg_questionnairetemplat" displayName="msmfg_Question_msmfg_questionnairetemplat" parentSchemaName="msmfg_questionnairetemplatequestion" parentDisplayName="Questionnaire Template Question" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="1" schemaName="msmfg_capabilitytype" displayName="Capability Type" solution="Active" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="1" schemaName="msmfg_capabilitytype" displayName="Capability Type" solution="Active" />
+        <Dependent key="6" type="62" schemaName="msmfg_SupplierManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="1" schemaName="msmfg_capabilitytype" displayName="Capability Type" solution="Active" />
+        <Dependent key="13" type="10" schemaName="msmfg_VendorCapability_CapabilityType" displayName="msmfg_VendorCapability_CapabilityType" parentSchemaName="msmfg_capabilitytype" parentDisplayName="Capability Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="1" schemaName="msmfg_vendorquestionnaire" displayName="Vendor Questionnaire" solution="Active" />
+        <Dependent key="15" type="60" displayName="Portal Form" parentDisplayName="Account" id="{e5d9457f-cf6a-ea11-a811-000d3a33f47e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="1" schemaName="msmfg_vendorquestionnaire" displayName="Vendor Questionnaire" solution="Active" />
+        <Dependent key="16" type="10" schemaName="msmfg_QuestionnaireQuestion_msmfg_VendorQ" displayName="msmfg_QuestionnaireQuestion_msmfg_VendorQ" parentSchemaName="msmfg_vendorquestionnaire" parentDisplayName="Vendor Questionnaire" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="1" schemaName="msmfg_vendorquestionnaire" displayName="Vendor Questionnaire" solution="Active" />
+        <Dependent key="6" type="62" schemaName="msmfg_SupplierManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="1" schemaName="msmfg_vendorquestionnaire" displayName="Vendor Questionnaire" solution="Active" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="msmfg_productclassification" displayName="Product Classification" solution="Active" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="msmfg_productclassification" displayName="Product Classification" solution="Active" />
+        <Dependent key="6" type="62" schemaName="msmfg_SupplierManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="2" schemaName="msmfg_returnoninvestment" displayName="Return On Investment" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="19" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="2" schemaName="msmfg_capabilitytypeid" displayName="Capability Type" parentSchemaName="msmfg_capabilitytype" parentDisplayName="Capability Type" solution="Active" />
+        <Dependent key="13" type="10" schemaName="msmfg_VendorCapability_CapabilityType" displayName="msmfg_VendorCapability_CapabilityType" parentSchemaName="msmfg_capabilitytype" parentDisplayName="Capability Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="2" schemaName="msmfg_rdinvestment" displayName="R&amp;D Investment" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="19" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="22" type="2" schemaName="msmfg_isminorityowned" displayName="Minority Owned" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="19" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="22" type="2" schemaName="msmfg_isminorityowned" displayName="Minority Owned" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="15" type="60" displayName="Portal Form" parentDisplayName="Account" id="{e5d9457f-cf6a-ea11-a811-000d3a33f47e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="2" schemaName="msmfg_questionnairetemplatequestionid" displayName="Questionnaire Template Question" parentSchemaName="msmfg_questionnairetemplatequestion" parentDisplayName="Questionnaire Template Question" solution="Active" />
+        <Dependent key="11" type="10" schemaName="msmfg_Question_msmfg_questionnairetemplat" displayName="msmfg_Question_msmfg_questionnairetemplat" parentSchemaName="msmfg_questionnairetemplatequestion" parentDisplayName="Questionnaire Template Question" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="2" schemaName="msmfg_number" displayName="Number" parentSchemaName="msmfg_certificationtype" parentDisplayName="Certification Type" solution="Active" />
+        <Dependent key="9" type="10" schemaName="msmfg_VendorCert_CertType" displayName="msmfg_VendorCert_CertType" parentSchemaName="msmfg_certificationtype" parentDisplayName="Certification Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="25" type="2" schemaName="msmfg_isforeignownership" displayName="Foreign Ownership" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="19" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="25" type="2" schemaName="msmfg_isforeignownership" displayName="Foreign Ownership" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="15" type="60" displayName="Portal Form" parentDisplayName="Account" id="{e5d9457f-cf6a-ea11-a811-000d3a33f47e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="2" schemaName="msmfg_certificationtypeid" displayName="Certification Type" parentSchemaName="msmfg_certificationtype" parentDisplayName="Certification Type" solution="Active" />
+        <Dependent key="8" type="26" schemaName="Active Vendor Certifications" displayName="Active Vendor Certifications" parentSchemaName="msmfg_vendorcertification" parentDisplayName="Vendor Certification" id="{50637d14-c723-49cb-b3ff-5b4d10c94ed6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="2" schemaName="msmfg_certificationtypeid" displayName="Certification Type" parentSchemaName="msmfg_certificationtype" parentDisplayName="Certification Type" solution="Active" />
+        <Dependent key="4" type="26" schemaName="Access Management" displayName="Access Management" parentSchemaName="msmfg_vendorcertification" parentDisplayName="Vendor Certification" id="{a7cfdaa7-857e-ea11-a812-000d3a33fcaa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="2" schemaName="msmfg_certificationtypeid" displayName="Certification Type" parentSchemaName="msmfg_certificationtype" parentDisplayName="Certification Type" solution="Active" />
+        <Dependent key="5" type="26" schemaName="Inactive Vendor Certifications" displayName="Inactive Vendor Certifications" parentSchemaName="msmfg_vendorcertification" parentDisplayName="Vendor Certification" id="{dbf184a7-baa6-4806-a09f-79fd6b804399}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="2" schemaName="msmfg_certificationtypeid" displayName="Certification Type" parentSchemaName="msmfg_certificationtype" parentDisplayName="Certification Type" solution="Active" />
+        <Dependent key="9" type="10" schemaName="msmfg_VendorCert_CertType" displayName="msmfg_VendorCert_CertType" parentSchemaName="msmfg_certificationtype" parentDisplayName="Certification Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="27" type="2" schemaName="msmfg_employeeexpectedturnover" displayName="Employee Expected turnover" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="19" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="28" type="2" schemaName="msmfg_name" displayName="Name" parentSchemaName="msmfg_questionnairetemplatequestion" parentDisplayName="Questionnaire Template Question" solution="Active" />
+        <Dependent key="11" type="10" schemaName="msmfg_Question_msmfg_questionnairetemplat" displayName="msmfg_Question_msmfg_questionnairetemplat" parentSchemaName="msmfg_questionnairetemplatequestion" parentDisplayName="Questionnaire Template Question" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="29" type="2" schemaName="msmfg_name" displayName="Name" parentSchemaName="msmfg_certificationtype" parentDisplayName="Certification Type" solution="Active" />
+        <Dependent key="5" type="26" schemaName="Inactive Vendor Certifications" displayName="Inactive Vendor Certifications" parentSchemaName="msmfg_vendorcertification" parentDisplayName="Vendor Certification" id="{dbf184a7-baa6-4806-a09f-79fd6b804399}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="29" type="2" schemaName="msmfg_name" displayName="Name" parentSchemaName="msmfg_certificationtype" parentDisplayName="Certification Type" solution="Active" />
+        <Dependent key="4" type="26" schemaName="Access Management" displayName="Access Management" parentSchemaName="msmfg_vendorcertification" parentDisplayName="Vendor Certification" id="{a7cfdaa7-857e-ea11-a812-000d3a33fcaa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="29" type="2" schemaName="msmfg_name" displayName="Name" parentSchemaName="msmfg_certificationtype" parentDisplayName="Certification Type" solution="Active" />
+        <Dependent key="8" type="26" schemaName="Active Vendor Certifications" displayName="Active Vendor Certifications" parentSchemaName="msmfg_vendorcertification" parentDisplayName="Vendor Certification" id="{50637d14-c723-49cb-b3ff-5b4d10c94ed6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="30" type="2" schemaName="msmfg_isfemaleowned" displayName="Female Owned" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="15" type="60" displayName="Portal Form" parentDisplayName="Account" id="{e5d9457f-cf6a-ea11-a811-000d3a33f47e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="30" type="2" schemaName="msmfg_isfemaleowned" displayName="Female Owned" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="19" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="2" schemaName="msmfg_issmallbusiness" displayName="Small Business" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="19" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="2" schemaName="msmfg_issmallbusiness" displayName="Small Business" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="15" type="60" displayName="Portal Form" parentDisplayName="Account" id="{e5d9457f-cf6a-ea11-a811-000d3a33f47e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="2" schemaName="msmfg_vendorquestionnaire" displayName="Vendor Questionnaire" parentSchemaName="msmfg_vendorquestionnaire" parentDisplayName="Vendor Questionnaire" solution="Active" />
+        <Dependent key="16" type="10" schemaName="msmfg_QuestionnaireQuestion_msmfg_VendorQ" displayName="msmfg_QuestionnaireQuestion_msmfg_VendorQ" parentSchemaName="msmfg_vendorquestionnaire" parentDisplayName="Vendor Questionnaire" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="2" schemaName="msmfg_profit" displayName="Profit" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="19" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="34" type="2" schemaName="msmfg_vendorquestionnaireid" displayName="Vendor Questionnaire" parentSchemaName="msmfg_vendorquestionnaire" parentDisplayName="Vendor Questionnaire" solution="Active" />
+        <Dependent key="16" type="10" schemaName="msmfg_QuestionnaireQuestion_msmfg_VendorQ" displayName="msmfg_QuestionnaireQuestion_msmfg_VendorQ" parentSchemaName="msmfg_vendorquestionnaire" parentDisplayName="Vendor Questionnaire" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="2" schemaName="msmfg_profitmargin" displayName="Profit Margin" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="19" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="36" type="2" schemaName="msmfg_numberofemployees" displayName="Number Of Employees" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="19" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="2" schemaName="msmfg_name" displayName="Name" parentSchemaName="msmfg_capabilitytype" parentDisplayName="Capability Type" solution="Active" />
+        <Dependent key="13" type="10" schemaName="msmfg_VendorCapability_CapabilityType" displayName="msmfg_VendorCapability_CapabilityType" parentSchemaName="msmfg_capabilitytype" parentDisplayName="Capability Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="38" type="9" schemaName="msmfg_department" displayName="Department" solution="Active" />
+        <Dependent key="39" type="2" schemaName="msmfg_department" displayName="Department" parentSchemaName="msmfg_department" parentDisplayName="Department" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="40" type="9" schemaName="msmfg_role" displayName="Role" solution="Active" />
+        <Dependent key="41" type="2" schemaName="msmfg_role" displayName="Role" parentSchemaName="msmfg_accessrequest" parentDisplayName="Access Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="42" type="9" schemaName="msmfg_requesttype" displayName="Request Type" solution="Active" />
+        <Dependent key="43" type="2" schemaName="msmfg_requesttype" displayName="Request Type" parentSchemaName="msmfg_accessrequest" parentDisplayName="Access Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="44" type="9" schemaName="msmfg_agency" displayName="Agency" solution="Active" />
+        <Dependent key="45" type="2" schemaName="msmfg_agency" displayName="Agency" parentSchemaName="msmfg_creditrating" parentDisplayName="Credit Rating" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="46" type="9" schemaName="msmfg_questiontype" displayName="Question Type" solution="Active" />
+        <Dependent key="47" type="2" schemaName="msmfg_questiontype" displayName="QuestionType" parentSchemaName="msmfg_question" parentDisplayName="Question" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="46" type="9" schemaName="msmfg_questiontype" displayName="Question Type" solution="Active" />
+        <Dependent key="48" type="2" schemaName="msmfg_type" displayName="Type" parentSchemaName="msmfg_questionnairequestion" parentDisplayName="Questionnaire Question" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="49" type="9" schemaName="msmfg_identifiertype" displayName="Identifier Type" solution="Active" />
+        <Dependent key="50" type="2" schemaName="msmfg_type" displayName="Type" parentSchemaName="msmfg_identifier" parentDisplayName="Identifier" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="51" type="10" schemaName="msmfg_VendorQuestionnaire_Account_Account" displayName="msmfg_VendorQuestionnaire_Account_Account" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent key="15" type="60" displayName="Portal Form" parentDisplayName="Account" id="{e5d9457f-cf6a-ea11-a811-000d3a33f47e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="52" type="26" schemaName="Active Vendor Questionnaires" displayName="Active Vendor Questionnaires" parentSchemaName="msmfg_vendorquestionnaire" parentDisplayName="Vendor Questionnaire" solution="Active" id="{a78ab3c5-6dc0-4808-b83a-6f61adb91018}" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="52" type="26" schemaName="Active Vendor Questionnaires" displayName="Active Vendor Questionnaires" parentSchemaName="msmfg_vendorquestionnaire" parentDisplayName="Vendor Questionnaire" solution="Active" id="{a78ab3c5-6dc0-4808-b83a-6f61adb91018}" />
+        <Dependent key="15" type="60" displayName="Portal Form" parentDisplayName="Account" id="{e5d9457f-cf6a-ea11-a811-000d3a33f47e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="26" schemaName="Active Account Communication Configuration" displayName="Active Account Communication Configuration" parentSchemaName="msmfg_accountcommconfig" parentDisplayName="Account Communication Configuration" solution="Active" id="{98c3e576-43e7-4a19-92bf-af0495293e8e}" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="54" type="26" schemaName="Capability Type Lookup View" displayName="Capability Type Lookup View" parentSchemaName="msmfg_capabilitytype" parentDisplayName="Capability Type" solution="Active" id="{f0c3dc4a-3d23-4b48-b77e-ad7626bf8357}" />
+        <Dependent key="55" type="60" displayName="Vendor Onboard Vend Cap Portal Form" parentDisplayName="Vendor Capability" id="{bce3a1c4-4dc9-49fb-9661-82f97a345b86}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="56" type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="57" type="26" schemaName="Portal: Public Safety" displayName="Portal: Public Safety" parentSchemaName="msmfg_vendorquestionnaire" parentDisplayName="Vendor Questionnaire" solution="Active" id="{6c8f1868-9f72-ea11-a811-000d3a33f47e}" />
+        <Dependent key="15" type="60" displayName="Portal Form" parentDisplayName="Account" id="{e5d9457f-cf6a-ea11-a811-000d3a33f47e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="26" schemaName="Inactive Account Communication Configuration" displayName="Inactive Account Communication Configuration" parentSchemaName="msmfg_accountcommconfig" parentDisplayName="Account Communication Configuration" solution="Active" id="{f3a26a08-5dc0-4160-881e-85785f047432}" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="59" type="26" schemaName="Inactive Vendor Questionnaires" displayName="Inactive Vendor Questionnaires" parentSchemaName="msmfg_vendorquestionnaire" parentDisplayName="Vendor Questionnaire" solution="Active" id="{de2ef0ff-7094-402a-80af-b6716c5d948c}" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="60" type="26" schemaName="All Accounts" displayName="All Accounts" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="61" type="60" displayName="Information" parentDisplayName="Vendor Questionnaire" solution="Active" id="{70860976-cd83-4a2f-89b9-fa636c86029b}" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="60" displayName="Information" parentDisplayName="Product Classification" solution="Active" id="{4b0c70ef-2f21-4432-9862-5afd6d7c18ed}" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="63" type="60" displayName="Information" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="64" type="60" displayName="Information" parentDisplayName="Questionnaire Template Question" solution="Active" id="{7fbbebf8-cfe9-47cd-981c-9da0e1048751}" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="65" type="60" displayName="Information" parentDisplayName="Capability Type" solution="Active" id="{2e616806-cd1f-4f64-9f9b-b05730fa5a88}" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="66" type="60" displayName="Information" parentDisplayName="Account Communication Configuration" solution="Active" id="{89da4310-2dc2-4ff4-9bc4-5597aa4ef201}" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="60" displayName="Information" parentDisplayName="Account Communication Configuration" solution="Active" id="{f21f6f47-0845-4f7a-976f-ce7daf5b9788}" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="68" type="66" schemaName="MscrmControls.Calendar.CalendarControl" displayName="MscrmControls.Calendar.CalendarControl" solution="CustomControlsCore (9.1.0000.16545)" />
+        <Dependent key="19" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="69" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.16545)" />
+        <Dependent key="19" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="70" type="66" schemaName="MscrmControls.LinearGauge.LinearGaugeControl" displayName="MscrmControls.LinearGauge.LinearGaugeControl" solution="CustomControlsCore (9.1.0000.16545)" />
+        <Dependent key="19" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="71" type="61" schemaName="msmfg_ARSVG" displayName="msmfg_ARSVG" solution="Active" />
+        <Dependent key="72" type="1" schemaName="msmfg_accessrequest" displayName="Access Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="73" type="61" schemaName="msmfg_DEPTSVG" displayName="msmfg_DEPTSVG" solution="Active" />
+        <Dependent key="74" type="1" schemaName="msmfg_department" displayName="Department" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="7" type="80" schemaName="msmfg_SupplierManagement" displayName="Supplier Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="61" schemaName="msmfg_IconSVG" displayName="msmfg_IconSVG" solution="Active" />
+        <Dependent key="77" type="1" schemaName="msmfg_vendorcertification" displayName="Vendor Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="61" schemaName="msmfg_TemplateSVG" displayName="msmfg_TemplateSVG" solution="Active" />
+        <Dependent key="1" type="1" schemaName="msmfg_questionnairetemplate" displayName="Questionnaire Template" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="79" type="61" schemaName="msmfg_QuestionSVG" displayName="msmfg_QuestionSVG" solution="Active" />
+        <Dependent key="2" type="1" schemaName="msmfg_question" displayName="Question" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="80" type="61" schemaName="msmfg_IDSVG" displayName="msmfg_IDSVG" solution="Active" />
+        <Dependent key="81" type="1" schemaName="msmfg_identifier" displayName="Identifier" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="82" type="61" schemaName="msmfg_CREDITSVG" displayName="msmfg_CREDITSVG" solution="Active" />
+        <Dependent key="83" type="1" schemaName="msmfg_creditrating" displayName="Credit Rating" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="84" type="61" schemaName="msmfg_CapabilitySVG" displayName="msmfg_CapabilitySVG" solution="Active" />
+        <Dependent key="85" type="1" schemaName="msmfg_vendorcapability" displayName="Vendor Capability" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="86" type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="19" type="60" displayName="Vendor Onboard Form -Model Driven" parentDisplayName="Account" id="{2ce1c279-b4db-4704-99ce-443219e4ba57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="61" schemaName="msmfg_QQSVG" displayName="msmfg_QQSVG" solution="Active" />
+        <Dependent key="88" type="1" schemaName="msmfg_questionnairequestion" displayName="Questionnaire Question" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

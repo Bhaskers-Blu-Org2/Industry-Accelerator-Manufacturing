@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b1e5ba79-b234-4a14-acae-29d81aa4887d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmfg_identifier" select="1" icon="1" preview="1">
+        <row name="result" id="msmfg_identifierid">
+          <cell name="msmfg_identifier" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmfg_identifier">
+          <attribute name="msmfg_identifierid" />
+          <attribute name="msmfg_identifier" />
+          <attribute name="createdon" />
+          <order attribute="msmfg_identifier" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="msmfg_identifier" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Identifiers" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

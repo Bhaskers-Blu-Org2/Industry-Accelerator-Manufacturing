@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{de2ef0ff-7094-402a-80af-b6716c5d948c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmfg_vendorquestionnaire" select="1" icon="1" preview="1">
+        <row name="result" id="msmfg_vendorquestionnaireid">
+          <cell name="msmfg_vendorquestionnaire" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmfg_vendorquestionnaire">
+          <attribute name="msmfg_vendorquestionnaireid" />
+          <attribute name="msmfg_vendorquestionnaire" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <order attribute="msmfg_vendorquestionnaire" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Vendor Questionnaires" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

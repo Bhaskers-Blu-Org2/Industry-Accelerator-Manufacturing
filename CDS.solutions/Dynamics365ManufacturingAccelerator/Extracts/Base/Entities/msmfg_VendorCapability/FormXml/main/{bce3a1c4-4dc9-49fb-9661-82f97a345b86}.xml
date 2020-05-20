@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{bce3a1c4-4dc9-49fb-9661-82f97a345b86}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{fff1b4b7-91d2-4120-b470-f10b60a98c97}" IsUserDefined="1" labelid="{ee7e6c8c-6c3f-4e85-8d4b-7b4f1a0a84ad}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{08276dae-8043-445c-9e6f-7a539289b800}" labelid="{e02008f9-d81a-4062-9267-275b007f7143}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ac18b93a-5118-46ab-87ee-bf85881734b0}" labelid="{80777fb1-f832-4b76-949e-9870cc951cb3}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Vendor Capability" languagecode="1033" />
+                        </labels>
+                        <control id="msmfg_vendorcapability" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmfg_vendorcapability" uniqueid="{35863156-cba1-b522-9b5c-bde7ad31056c}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{447a8753-18f8-4cd4-a748-32991019d306}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Capability Type" languagecode="1033" />
+                        </labels>
+                        <control id="msmfg_capabilitytype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmfg_capabilitytype" disabled="false" uniqueid="{180eb893-c73e-0eba-24bd-4eb644d81685}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{F0C3DC4A-3D23-4B48-B77E-AD7626BF8357}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ae18490e-da4f-4bb5-b7f4-b1c025c75e0a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msmfg_description" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmfg_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1e639f32-f1f1-4b34-bf52-807bb9f867cf}" labelid="{7df41176-0784-446a-86a9-fdaeb7b58079}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{de0af793-1708-4fdb-b0f2-e4608955c7d0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{ae94caae-575d-4e99-9a0f-a8b88c6c3b68}" showlabel="false" labelid="{cdb9eafb-eb43-4056-8476-54a734d1c5ab}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{dde64f02-bca8-4ab7-b560-76087fa979f2}" showlabel="false" labelid="{d94b3db8-c115-4dfe-8b9b-a06fca00551f}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b17c1135-b67d-45f7-b258-157ddff3042c}" showlabel="false" labelid="{b3c9ec50-747e-47ad-9f55-7bce1cec7756}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{ca2460ce-f950-4887-86db-b6bcb8aacfb9}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9358d0cf-6a15-45a7-803f-a065a8209379}" showlabel="false" labelid="{a1331c98-4439-41d2-90d3-bb4584c18919}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{04dc6cd1-ad1f-4f74-89a4-07dd2b34645b}" showlabel="false" labelid="{e85a842e-3fa3-42bc-a14f-70c936ebab43}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a190302a-5250-47a2-8ef1-b2db437fa487}" showlabel="false" labelid="{48448d1e-2865-4b87-82b5-370ad828c429}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="2" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Vendor Onboard Vend Cap Portal Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
