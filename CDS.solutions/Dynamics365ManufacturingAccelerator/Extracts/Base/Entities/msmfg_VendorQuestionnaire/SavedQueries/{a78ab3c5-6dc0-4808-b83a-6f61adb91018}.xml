@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a78ab3c5-6dc0-4808-b83a-6f61adb91018}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmfg_vendorquestionnaire" select="1" icon="1" preview="1">
+        <row name="result" id="msmfg_vendorquestionnaireid">
+          <cell name="msmfg_vendorquestionnaire" width="120" />
+          <cell name="msmfg_account" width="201" />
+          <cell name="a_449b7b4d6cf5429aa126518083c8b5c5.msmfg_isfemaleowned" width="128" />
+          <cell name="a_449b7b4d6cf5429aa126518083c8b5c5.msmfg_isminorityowned" width="136" />
+          <cell name="a_449b7b4d6cf5429aa126518083c8b5c5.msmfg_islocallyowned" width="126" />
+          <cell name="a_449b7b4d6cf5429aa126518083c8b5c5.msmfg_isforeignownership" width="153" />
+          <cell name="a_449b7b4d6cf5429aa126518083c8b5c5.msmfg_issmallbusiness" width="123" />
+          <cell name="a_449b7b4d6cf5429aa126518083c8b5c5.msmfg_numberofemployees" width="133" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="msmfg_vendorquestionnaire">
+          <attribute name="msmfg_vendorquestionnaire" />
+          <attribute name="msmfg_account" />
+          <order attribute="msmfg_vendorquestionnaire" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmfg_vendorquestionnaireid" />
+          <link-entity alias="a_449b7b4d6cf5429aa126518083c8b5c5" name="account" to="msmfg_account" from="accountid" link-type="outer" visible="false">
+            <attribute name="msmfg_numberofemployees" />
+            <attribute name="msmfg_isfemaleowned" />
+            <attribute name="msmfg_isminorityowned" />
+            <attribute name="msmfg_islocallyowned" />
+            <attribute name="msmfg_isforeignownership" />
+            <attribute name="msmfg_issmallbusiness" />
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Vendor Questionnaires" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

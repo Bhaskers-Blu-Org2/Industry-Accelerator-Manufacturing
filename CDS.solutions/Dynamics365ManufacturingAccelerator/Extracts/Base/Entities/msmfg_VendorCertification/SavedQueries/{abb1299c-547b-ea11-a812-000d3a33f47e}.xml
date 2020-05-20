@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{abb1299c-547b-ea11-a812-000d3a33f47e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmfg_vendorcertification" select="1" preview="1" icon="1">
+        <row name="result" id="msmfg_vendorcertificationid">
+          <cell name="msmfg_certificationtype" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msmfg_certificationnumber" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msmfg_comments" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="msmfg_vendorcertification">
+          <order attribute="msmfg_certificationtype" descending="false" />
+          <attribute name="createdon" />
+          <attribute name="msmfg_comments" />
+          <attribute name="msmfg_certificationnumber" />
+          <attribute name="msmfg_certificationtype" />
+          <attribute name="msmfg_vendorcertificationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Portal View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

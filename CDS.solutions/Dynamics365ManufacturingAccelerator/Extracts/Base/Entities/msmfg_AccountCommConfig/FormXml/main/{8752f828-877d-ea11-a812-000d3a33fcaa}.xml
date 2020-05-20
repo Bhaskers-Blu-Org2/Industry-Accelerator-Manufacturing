@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8752f828-877d-ea11-a812-000d3a33fcaa}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab name="Communication_Type" id="{d04c3e9d-04db-166d-1cc3-0739350a5593}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Communication_Type" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Communication_Type" showlabel="true" showbar="false" locklevel="0" id="{aa02b434-4d36-c5e6-672b-1aedb129bb0e}" IsUserDefined="0" layout="varwidth" columns="1111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Select Your Communication Type" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{32431773-1273-3e06-6110-dd807cc3095c}" showlabel="false" locklevel="0">
+                        <labels>
+                          <label description="ElectronicCommunicationType" languagecode="1033" />
+                        </labels>
+                        <control id="msmfg_electroniccommunicationtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmfg_electroniccommunicationtype" disabled="false" uniqueid="{13889180-5383-6dbe-98a5-13db0cc4dbe1}" />
+                      </cell>
+                      <cell id="{a78cc542-915e-0d3a-2be9-e87c947500e0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="account" languagecode="1033" />
+                        </labels>
+                        <control id="msmfg_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmfg_account" disabled="false" />
+                      </cell>
+                      <cell id="{9d477081-5427-4d8d-ad49-8a627a0362c9}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{0b11c865-c97d-e080-ae3b-508560701656}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e58b1192-59ba-4322-bd2e-67ebbbc3d7b3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="msmfg_contact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmfg_contact" disabled="false" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{c839f5bf-f2ba-4946-84f6-39b820a6de19}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{2d74e556-ab02-43c0-a1c2-600e85482217}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{04450b36-d790-4e59-9056-fe306261f5dc}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="General" id="{dc7d91bc-38ca-9649-4183-b1b44d6a7171}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{b45785ba-358b-216e-c84b-8cec66a77a94}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{62401199-3adc-4379-9ccc-2422f5bb3a7a}" labelid="{9fea8774-8eca-44c6-9db5-93b14cf40042}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="EDI Id" languagecode="1033" />
+                        </labels>
+                        <control id="msmfg_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmfg_name" uniqueid="{967c65db-e0c5-05a3-3d6a-4b229b9727a4}" disabled="true" />
+                      </cell>
+                      <cell id="{62442dc9-81a7-46eb-e2ed-87cce0278be8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Override ID" languagecode="1033" />
+                        </labels>
+                        <control id="msmfg_overrideid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmfg_overrideid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e8ea6048-bd74-da06-ba5d-28a61374606d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Acknowledgment Type" languagecode="1033" />
+                        </labels>
+                        <control id="msmfg_acknowledgmenttype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmfg_acknowledgmenttype" disabled="false" />
+                      </cell>
+                      <cell id="{86e8d945-a853-7358-1d65-ea8b0ba06494}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Endpoint" languagecode="1033" />
+                        </labels>
+                        <control id="msmfg_endpoint" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="msmfg_endpoint" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c94285de-1412-a514-529e-9c2a316e847c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Message Batching" languagecode="1033" />
+                        </labels>
+                        <control id="msmfg_messagebatching" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="msmfg_messagebatching" disabled="false" uniqueid="{2613de43-564c-3eb4-ea37-a461b326c29a}" />
+                      </cell>
+                      <cell id="{279d1511-8334-2bcd-ea14-803601088eb0}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{fbaa6537-0570-436d-8b57-0b451d6af283}" IsUserDefined="1" labelid="{871645ba-6a7e-4564-aa8e-6c88c82cf73e}" name="{fbaa6537-0570-436d-8b57-0b451d6af283}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ac563805-1be2-477d-9ac8-83375b61f4d6}" labelid="{94e1aecc-1113-4301-a028-39933d847163}" name="{ac563805-1be2-477d-9ac8-83375b61f4d6}" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8748a330-ad05-4f65-8550-53ffb862374c}" labelid="{645854db-48ee-48d1-aa2a-245ec3293bc7}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="EDI Gateway" id="{529c33e9-c2ba-ec25-bd35-83e4b634c70c}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="EDI Gateway" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="EDI Gateway" showlabel="false" showbar="false" locklevel="0" id="{1d0dd01e-2b0e-7215-7be6-e34142e89e94}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="EDI Gateway" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9cb1c27b-53d0-de0b-2de9-5e08c1c9d333}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Edi Gateway" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_edigateway" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>msmfg_EDIGateway</Url>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{42EED44E-9573-EA11-A811-000D3A33F47E}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="EDI Examples" id="{d3a54ea7-20ec-3bcd-eed9-a5e1920985e3}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="EDI Examples" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="EDI Examples" showlabel="false" showbar="false" locklevel="0" id="{ac940a22-308e-a500-e09d-79c0a24eba98}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="EDI Examples" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6ce2c8db-eccd-71a2-e026-23006c63b8b7}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Edi Examples" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_ediexamples" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>msmfg_EDIExamples</Url>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{733F0F87-1974-EA11-A811-000D3A33F47E}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="DownloadUploadCertificate" id="{740d157c-87c6-7372-9c45-4e700b1ac3b8}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Download/Upload Certificate" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_1" showlabel="true" showbar="true" locklevel="0" id="{7005e8d3-1c25-d799-e086-ad3dca5d623d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Download/Upload Certificated and AS2 Files" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dd7a18b4-3052-259c-d099-0e2e50da834c}" showlabel="true" rowspan="15" auto="false" colspan="1" locklevel="0">
+                        <labels>
+                          <label description="Certificates and AS2 Files" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{2c0bc5cd-45e5-8d83-4595-c2bcc7003375}" disabled="false">
+                          <parameters>
+                            <UClientUniqueName>Notes</UClientUniqueName>
+                            <UClientModules>Notes</UClientModules>
+                            <UClientDefaultModuleForCreateExperience>Notes</UClientDefaultModuleForCreateExperience>
+                            <UClientShowFilterPane>true</UClientShowFilterPane>
+                            <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                            <UClientOrderBy>descending</UClientOrderBy>
+                            <UClientRecordPerPage>10</UClientRecordPerPage>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                            <EmailConversationView>true</EmailConversationView>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="TestCase" id="{54571d81-e2d6-4a08-daac-7c8ed909469a}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Test Case" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_7_section_1" showlabel="false" showbar="false" locklevel="0" id="{552752ae-4e6a-1d2c-7349-0030da3569bc}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a7853701-866a-3524-5979-ceb789524c21}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="edi testcase" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_editestcase" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>msmfg_EDITestCase</Url>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{630277F2-3574-EA11-A811-000D3A33F47E}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="ProductionSignOff" id="{060a1cdd-0d90-7ba8-5e0e-c05ed42510e9}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Production Sign Off" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_8_section_1" showlabel="false" showbar="false" locklevel="0" id="{63e1d734-535b-9c31-48b6-353125160035}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{868026a0-8a66-5083-ec7e-0dd6cc6ab56e}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="edi product signoff" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_ediproductsignoff" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>msmfg_EDIProductionSignOff</Url>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{DC5C7EB6-3774-EA11-A811-000D3A33F47E}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{67b2349f-9464-4fc5-bfae-f9f5172b8bd0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{455ec6c8-1517-480e-b30a-ee68f727d9a6}" showlabel="false" labelid="{17998f1b-7623-4695-b9e9-6548103328d0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8d2f8c21-b1a4-4381-8155-aea62fac2224}" showlabel="false" labelid="{81b63cbf-e008-481d-80f9-26f7d27b95ec}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{43fdc0a5-6ae8-41bb-aecf-6c791672dbb7}" showlabel="false" labelid="{89cbe2f9-d134-4f4f-b6be-7b5bca3429fa}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{153cf304-23a8-4901-903c-0cac97c97f4a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7ee6ce42-7fa0-4dbf-a92a-a7ae7ccad81a}" showlabel="false" labelid="{3919f305-3d18-49f8-9b7c-49db2d4de02c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c05de7fe-8938-4d01-945d-f9494e731ea2}" showlabel="false" labelid="{870b99df-d982-4563-ac66-756fcdb0dd9e}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b532b732-593f-4d63-a832-b21d3240b874}" showlabel="false" labelid="{0bfb5365-7dcb-41c6-a58a-df55f055f634}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Portal Form : EDI" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

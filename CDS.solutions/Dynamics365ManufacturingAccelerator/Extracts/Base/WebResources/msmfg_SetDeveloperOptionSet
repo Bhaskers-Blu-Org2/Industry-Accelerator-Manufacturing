@@ -1,0 +1,5 @@
+function onLoad(executionContext) {
+     'use strict';
+    var formContext = executionContext.getFormContext();
+    formContext.getAttribute("msmfg_requesttype").setValue(843540001);
+}

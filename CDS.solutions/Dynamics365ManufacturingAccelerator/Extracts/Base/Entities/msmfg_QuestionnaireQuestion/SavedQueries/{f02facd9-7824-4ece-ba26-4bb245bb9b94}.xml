@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f02facd9-7824-4ece-ba26-4bb245bb9b94}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmfg_questionnairequestion" select="1" icon="1" preview="1">
+        <row name="result" id="msmfg_questionnairequestionid">
+          <cell name="msmfg_questionnairequestion" width="210" />
+          <cell name="msmfg_type" width="164" />
+          <cell name="msmfg_questiontext" width="300" />
+          <cell name="msmfg_response" width="100" />
+          <cell name="msmfg_account" width="100" />
+          <cell name="msmfg_contact" width="296" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmfg_questionnairequestion">
+          <attribute name="msmfg_questionnairequestionid" />
+          <attribute name="msmfg_questionnairequestion" />
+          <attribute name="createdon" />
+          <order attribute="msmfg_questionnairequestion" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmfg_type" />
+          <attribute name="msmfg_contact" />
+          <attribute name="msmfg_response" />
+          <attribute name="msmfg_questiontext" />
+          <attribute name="msmfg_account" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Questionnaire Questions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

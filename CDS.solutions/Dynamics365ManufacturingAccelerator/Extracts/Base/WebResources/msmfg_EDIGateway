@@ -1,0 +1,241 @@
+<html><head><meta><meta><meta><meta>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<meta><meta><meta><meta><meta><meta><meta><meta><meta><meta></head><body onfocusout="parent.setEmailRange();" style="overflow-wrap: break-word;">
+<style>
+.breadcrumb {
+    display: none;
+}
+
+.page-header {
+    border:0px;
+}
+
+.page-heading .container {
+    display: none;
+}
+
+.page-heading {
+    display: none;
+}
+
+#titleNew {
+    font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 20px;
+/* identical to box height, or 71% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+/* Text color/Primary */
+
+color: #323130;
+}
+
+.table-striped p {
+   font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+/* Text color/Primary */
+
+color: #323130;
+}
+
+td {
+    font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+
+/* Neutrals / Web / Gray 130 #605E5C */
+
+color: #605E5C;
+}
+
+th {
+    font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+
+/* Neutrals / Web / Gray 130 #605E5C */
+
+color: #605E5C;
+    font-weight: BOLD;
+}
+
+h5 {
+    font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+/* Text color/Primary */
+
+color: #323130;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.btn-primary {
+width: 87px;
+height: 32px;
+left: calc(50% - 87px/2);
+top: calc(50% - 32px/2);
+
+/* Communication Blue / Light / Comm Primary #0078D4 */
+
+background: #0078D4;
+border-radius: 2px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: center;
+margin: 0px 0px;
+}
+.btn-primary {
+    position: static;
+width: 76px;
+height: 32px;
+left: calc(50% - 76px/2);
+top: calc(50% - 32px/2);
+
+/* Communication Blue / Light / Comm Primary #0078D4 */
+
+background: #0078D4;
+border-radius: 2px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: center;
+margin: 0px 10px;
+}
+</style>
+
+<div style="background-color: rgb(255, 255, 254); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;"><div><br></div></div>
+
+<h2 id="titleNew">Onboard to EDI Gateway</h2>
+
+<h5>AS2, IP and URL Details</h5>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th scope="col">Item</th>
+			<th scope="col" style="width: 47%;">UAT</th>
+			<th scope="col">PROD</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">AS2 Application Software Used</th>
+			<td style="width: 47%;">Azure Logic Apps</td>
+			<td>Azure Logic Apps</td>
+		</tr>
+		<tr>
+			<th scope="row">Inbound Gateway Address(To Post documents to Microsoft)</th>
+			<td style="width: 47%;">https://Contososupplychainuat.azure-api.net/v1/EnterpriseMessageGateway/Receive&lt;</td>
+			<td>https://Contososupplychainuat.azure-api.net/v1/EnterpriseMessageGateway/Receive</td>
+		</tr>
+		<tr>
+			<th scope="row">Inbound IP Address</th>
+			<td style="width: 47%;">192.168.1.1, 123.342.2.2</td>
+			<td>123.124.2.4, 234.23.4.3</td>
+		</tr>
+		<tr>
+			<th scope="row">Outbound IP Address</th>
+			<td style="width: 47%;">192.168.1.1, 123.342.2.2</td>
+			<td>123.124.2.4, 234.23.4.3</td>
+		</tr>
+		<tr>
+			<th scope="row">AS2 Identifier</th>
+			<td style="width: 47%;">CLOUDSYSTEMS-TEST</td>
+			<td>CLOUDSYSTEMS-TEST</td>
+		</tr>
+		<tr>
+			<th scope="row">Interchange/Payload Identifiers</th>
+			<td style="width: 47%;">ISA ID : 081466849SVCT QUALIFIER: 01</td>
+			<td>ISA ID : 081466849SVCT QUALIFIER: 01</td>
+		</tr>
+	</tbody>
+</table>
+
+<h5>Decrypts Incoming Payloads Using Below Details</h5>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th scope="col">Encryption Required</th>
+			<th scope="col" style="padding-left: 10%;width: 56%">Yes</th>
+			<th scope="col">Yes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">Encryption Algorithm</th>
+			<td style="padding-left: 10%;width: 56%">Triple DES</td>
+			<td>Triple DES</td>
+		</tr>
+		<tr>
+			<th scope="row">Decryption Certificate</th>
+			<td style="padding-left: 10%;width: 56%">Serial# 200001AE999E4EA015C39F0F0E00000001AE</td>
+			<td>Serial# 200001AE999E4EA015C39F0F0E00000001AE</td>
+		</tr>
+	</tbody>
+</table>
+
+<h5>Signs Outgoing Payloads Using Below Details</h5>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th scope="col">Signing Required</th>
+			<th scope="col" style="padding-left: 12%;width: 58%;">Yes</th>
+			<th scope="col">Yes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">Signing Algorithm</th>
+			<td style="padding-left: 12%;width: 58%;">SHA2</td>
+			<td>SHA2</td>
+		</tr>
+		<tr>
+			<th scope="row">Signing Certificate</th>
+			<td style="padding-left: 12%;width: 58%;">Serial# 200001AE999E4EA015C39F0F0E00000001AE</td>
+			<td>Serial# 200001AE999E4EA015C39F0F0E00000001AE</td>
+		</tr>
+	</tbody>
+</table>
+
+
+</body></html>

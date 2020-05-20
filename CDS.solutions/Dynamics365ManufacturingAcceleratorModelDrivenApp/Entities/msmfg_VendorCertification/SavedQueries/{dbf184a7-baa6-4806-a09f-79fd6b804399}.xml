@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{dbf184a7-baa6-4806-a09f-79fd6b804399}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmfg_vendorcertification" select="1" icon="1" preview="1">
+        <row name="result" id="msmfg_vendorcertificationid">
+          <cell name="msmfg_vendorcertification" width="168" />
+          <cell name="msmfg_account" width="171" />
+          <cell name="a_5f971c5e4412487c95616d00a2585839.msmfg_name" width="300" />
+          <cell name="msmfg_certificationnumber" width="100" />
+          <cell name="msmfg_issuedate" width="110" />
+          <cell name="msmfg_duedate" width="100" />
+          <cell name="msmfg_comments" width="100" />
+          <cell name="msmfg_expirationdate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmfg_vendorcertification">
+          <attribute name="msmfg_vendorcertificationid" />
+          <attribute name="msmfg_vendorcertification" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="msmfg_certificationnumber" />
+          <attribute name="msmfg_account" />
+          <attribute name="msmfg_issuedate" />
+          <attribute name="msmfg_expirationdate" />
+          <attribute name="msmfg_comments" />
+          <attribute name="msmfg_duedate" />
+          <order attribute="msmfg_vendorcertification" descending="false" />
+          <link-entity alias="a_5f971c5e4412487c95616d00a2585839" name="msmfg_certificationtype" to="msmfg_certificationtype" from="msmfg_certificationtypeid" link-type="outer" visible="false">
+            <attribute name="msmfg_name" />
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Vendor Certifications" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>msmfg_SupplierManagement</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="New_Area" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Access Management" />
+      </Titles>
+      <Group Id="New_Group" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Reporting" />
+        </Titles>
+        <SubArea Id="New_SubArea" ResourceId="SitemapDesigner.NewSubArea" Url="/workplace/home_dashboards.aspx" IntroducedVersion="7.0.0.0" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Dashboard" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="NewGroup_868de25b" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Access Requets" />
+        </Titles>
+        <SubArea Id="NewSubArea_a2b14981" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmfg_accessrequest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Access Requets" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="NewGroup_d8a8af7e" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Suppliers" />
+        </Titles>
+        <SubArea Id="NewSubArea_a6558d9e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_6637393a" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_33eb7bd9" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Responses" />
+        </Titles>
+        <SubArea Id="NewSubArea_85d85236" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmfg_vendorcertification" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_6f3ec389" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmfg_vendorquestionnaire" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_30daa6ae" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmfg_vendorcapability" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_2237a2c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmfg_creditrating" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_11df163c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmfg_department" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_12a156d8" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="EDI Onboarding" />
+        </Titles>
+        <SubArea Id="NewSubArea_0e4f52d2" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmfg_accountcommconfig" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+    <Area Id="NewArea_98ed5157" ResourceId="SitemapDesigner.NewArea" ShowGroups="false">
+      <Titles>
+        <Title LCID="1033" Title="Administration" />
+      </Titles>
+      <Group Id="NewGroup_cc0ba44b" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Questionaires" />
+        </Titles>
+        <SubArea Id="NewSubArea_1fceeb75" Entity="msmfg_question" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Question" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_536dce9c" Entity="msmfg_questionnairequestion" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Questionnaire Question" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_bb7800b8" Entity="msmfg_questionnairetemplate" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_9fa7da7" Entity="msmfg_questionnairetemplatequestion" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_a46162c1" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Certifications" />
+        </Titles>
+        <SubArea Id="NewSubArea_061e3b7c" Entity="msmfg_certificationtype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_6fa169ce" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Classifications" />
+        </Titles>
+        <SubArea Id="NewSubArea_40de54cd" Entity="msmfg_productclassification" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_54a38fd" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Capabilities" />
+        </Titles>
+        <SubArea Id="NewSubArea_94fb5f3" Entity="msmfg_capabilitytype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Supplier Management" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

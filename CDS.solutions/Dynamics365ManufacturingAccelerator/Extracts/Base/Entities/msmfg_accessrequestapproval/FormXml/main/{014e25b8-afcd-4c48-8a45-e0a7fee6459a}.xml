@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{014e25b8-afcd-4c48-8a45-e0a7fee6459a}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{8b3fa673-b775-4ef9-9233-15260b3b06aa}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{0e8f05e8-8fb9-4352-abe1-ff90be9e8eda}">
+          <labels>
+            <label description="Review Request" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{8b3fa673-b775-4ef9-9233-15260b3b06aa}" name="StageStep3_section1" labelid="{a2cecac7-7e11-434f-906f-b24994919102}">
+                  <labels>
+                    <label description="Review Request" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{05a2da4c-f15b-4ad5-b244-9d0f6cf29471}" showlabel="true" visible="true" labelid="{e0deea97-99a6-432a-849f-e7ee22a3ed62}">
+                        <labels>
+                          <label description="Business Contact" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_msmfg_accessrequest_msmfg_accessrequestapproval:msmfg_businesscontact" classid="{ada2203e-b4cd-49be-9ddf-234642b43b52}" datafieldname="msmfg_businesscontact" relationship="bpf_msmfg_accessrequest_msmfg_accessrequestapproval" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f17a005a-7a18-4412-8e70-3ccd8e96145d}" showlabel="true" visible="true" labelid="{24c9ee8f-cdb5-46b4-ba89-9c92af7ccd9b}">
+                        <labels>
+                          <label description="Justification" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_msmfg_accessrequest_msmfg_accessrequestapproval:msmfg_justification" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="msmfg_justification" relationship="bpf_msmfg_accessrequest_msmfg_accessrequestapproval" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{47b7932b-8863-423f-a920-e1985e50fc2c}" showlabel="true" visible="true" labelid="{d8b95485-d5d3-490a-9d48-44f184a81dd3}">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_msmfg_accessrequest_msmfg_accessrequestapproval:msmfg_email" classid="{ada2203e-b4cd-49be-9ddf-234642b43b52}" datafieldname="msmfg_email" relationship="bpf_msmfg_accessrequest_msmfg_accessrequestapproval" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{ceec4616-e886-4a26-9be5-2ec408c1fcad}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{cdd33217-7193-4702-9574-faa0d2b94ddb}">
+          <labels>
+            <label description="Decision" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{ceec4616-e886-4a26-9be5-2ec408c1fcad}" name="StageStep11_section1" labelid="{9aef19ea-7218-4a29-889b-3200a6a13bf5}">
+                  <labels>
+                    <label description="Decision" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{90c0f307-e19e-425a-931b-cd9347763525}" showlabel="true" visible="true" labelid="{d2cb51e2-15a9-4ff1-bd0d-c10e44bd0c7d}">
+                        <labels>
+                          <label description="Decision" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_msmfg_accessrequest_msmfg_accessrequestapproval:msmfg_decision" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="msmfg_decision" relationship="bpf_msmfg_accessrequest_msmfg_accessrequestapproval" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

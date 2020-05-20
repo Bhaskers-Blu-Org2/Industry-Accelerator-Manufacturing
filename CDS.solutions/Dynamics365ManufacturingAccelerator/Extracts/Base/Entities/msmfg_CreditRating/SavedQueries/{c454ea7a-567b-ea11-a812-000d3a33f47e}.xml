@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{c454ea7a-567b-ea11-a812-000d3a33f47e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmfg_name" select="1" preview="1" icon="1">
+        <row name="result" id="msmfg_creditratingid">
+          <cell name="msmfg_agency" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msmfg_description" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msmfg_reportdate" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="msmfg_creditrating">
+          <order attribute="msmfg_agency" descending="false" />
+          <attribute name="msmfg_reportdate" />
+          <attribute name="msmfg_description" />
+          <attribute name="msmfg_agency" />
+          <attribute name="msmfg_creditratingid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Portal View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

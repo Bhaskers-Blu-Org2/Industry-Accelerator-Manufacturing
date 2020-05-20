@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e7908051-d52b-4872-835f-40ac27bced07}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmfg_vendorcertification" select="1" icon="1" preview="1">
+        <row name="result" id="msmfg_vendorcertificationid">
+          <cell name="msmfg_vendorcertification" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmfg_vendorcertification">
+          <attribute name="msmfg_vendorcertificationid" />
+          <attribute name="msmfg_vendorcertification" />
+          <attribute name="createdon" />
+          <order attribute="msmfg_vendorcertification" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="VendorCertification Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

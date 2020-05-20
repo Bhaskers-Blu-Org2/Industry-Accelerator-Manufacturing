@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{13761f27-8fc3-4d22-b194-941490f9e3eb}</savedqueryid>
+    <layoutxml>
+      <grid name="msmfg_questionnairequestions" jump="msmfg_questionnairequestion" select="1" icon="1" preview="1">
+        <row name="msmfg_questionnairequestion" id="msmfg_questionnairequestionid">
+          <cell name="msmfg_questionnairequestion" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmfg_questionnairequestion">
+          <attribute name="msmfg_questionnairequestionid" />
+          <attribute name="msmfg_questionnairequestion" />
+          <attribute name="createdon" />
+          <order attribute="msmfg_questionnairequestion" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Questionnaire Question Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
