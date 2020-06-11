@@ -41,6 +41,14 @@ Click "release" tab on the top or click this [link](https://github.com/microsoft
 | [Media and Communications Accelerator](https://github.com/Microsoft/Industry-Accelerator-Media) |  Rapidly develop solutions around event and venue management, sports management, ticketing and advertising sales, media sponsorships, and various guest interactions such as event registrations and the tracking of loyalty programs. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
 | [Nonprofit Accelerator](https://github.com/Microsoft/Industry-Accelerator-Nonprofit) |  Rapidly develop nonprofit fundraising, grant management, and programmatic measurement solutions. The Microsoft Nonprofit Accelerator is set of capabilities and standards to help drive greater impact. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
 
+## Engage
+
+Connect with experts and peers, read blog articles, and find local events within the Industry Accelerator Community. 
+
+Join the [Industry Accelerator conversation](https://community.dynamics.com/365/industry-accelerators/).
+
+Join the [Manufacturing conversation](https://community.dynamics.com/365/industry-accelerators/f/manufacturing-accelerator-forum).
+
 ## Contributing
 
 * [CLA](#Contributor-License-Agreement-(CLA))
